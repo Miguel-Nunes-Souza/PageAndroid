@@ -82,6 +82,36 @@ main{
     border-bottom-right-radius: 10px ;
     border-bottom-left-radius: 10px ;
 }
+.coluna-esquerda, .coluna-direita {
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #128039;
+    border: 1px solid #169310;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: #ccc;
+}
+
+a:active {
+    color: red;
+}
+
+.imagem-flutuante img {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: 3px solid #333;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
 main h1{ 
     color: var(--Cor5);
     font-family: var(--font-destaque);

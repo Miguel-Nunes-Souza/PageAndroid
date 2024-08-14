@@ -24,10 +24,20 @@
         <p>Tudo aquilo que você sempre quis sobre o mundo tech em um único lugar</p>
     </header>
     <nav>
+        <div class="coluna-esquerda">
+            <h2>A Historia do Android</h2>
+        </div>
+        <div class="coluna-direita">
+            <h2>Descubra as curiosidades sobre seu surgimento</h2>
+    
+        </div>
         <a href="index.html">Home</a>
         <a href="noticias.html">Noticias</a>
         <a href="curiosidades.html">Curiosidades</a>
         <a href="professor.html">professor</a></nav>
+        <div class="imagem-flutuante">
+            <img src="imagens/aa.jfif" alt="Imagem Flutuante">
+        </div>
         <main>
             <article>
                 <h2>História do Mascote do Android</h2>
@@ -90,6 +100,11 @@
             <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema <strong>Android</strong> e seu simpático mascote.</p>
             </article>
         </main>
-        <footer><p>Site criado por<a href="https://github.com/Miguel-Nunes-Souza" target="_blank"> Miguel Nunes</a></p></footer>
+        <footer><p>Site criado por<a href="https://github.com/Miguel-Nunes-Souza" target="_blank" mudarCor()> Miguel Nunes</a></p></footer>
+        <script>
+            function mudarCor() {
+            document.body.style.backgroundColor = "lightblue";
+        }
+        </script>
 </body>
 </html>
